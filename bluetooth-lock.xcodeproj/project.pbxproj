@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		959BFC9A1A7379D500AB0FE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 959BFC991A7379D500AB0FE1 /* AppDelegate.m */; };
+		959BFC9C1A7379D500AB0FE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 959BFC9B1A7379D500AB0FE1 /* main.m */; };
+		959BFC9F1A7379D600AB0FE1 /* bluetooth_lock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 959BFC9D1A7379D600AB0FE1 /* bluetooth_lock.xcdatamodeld */; };
+		959BFCA11A7379D600AB0FE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959BFCA01A7379D600AB0FE1 /* Images.xcassets */; };
+		959BFCA41A7379D600AB0FE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959BFCA21A7379D600AB0FE1 /* MainMenu.xib */; };
+		959BFCB01A7379D600AB0FE1 /* bluetooth_lockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 959BFCAF1A7379D600AB0FE1 /* bluetooth_lockTests.m */; };
+		959BFCBC1A737B4600AB0FE1 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 959BFCBB1A737B4600AB0FE1 /* HomeView.m */; };
+		959BFCC01A73808200AB0FE1 /* LockManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 959BFCBF1A73808200AB0FE1 /* LockManager.m */; };
+		95E904EB1A76BCB000254EBE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E904EA1A76BCB000254EBE /* CoreBluetooth.framework */; };
+		95E904EE1A76BCE900254EBE /* BluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E904ED1A76BCE900254EBE /* BluetoothManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		959BFCAA1A7379D600AB0FE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959BFC8B1A7379D500AB0FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959BFC921A7379D500AB0FE1;
+			remoteInfo = "bluetooth-lock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		959BFC931A7379D500AB0FE1 /* bluetooth-lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluetooth-lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		959BFC971A7379D500AB0FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959BFC981A7379D500AB0FE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		959BFC991A7379D500AB0FE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		959BFC9B1A7379D500AB0FE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		959BFC9E1A7379D600AB0FE1 /* bluetooth_lock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bluetooth_lock.xcdatamodel; sourceTree = "<group>"; };
+		959BFCA01A7379D600AB0FE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		959BFCA31A7379D600AB0FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		959BFCA91A7379D600AB0FE1 /* bluetooth-lockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bluetooth-lockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		959BFCAE1A7379D600AB0FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959BFCAF1A7379D600AB0FE1 /* bluetooth_lockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bluetooth_lockTests.m; sourceTree = "<group>"; };
+		959BFCBA1A737B4600AB0FE1 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		959BFCBB1A737B4600AB0FE1 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		959BFCBE1A73808200AB0FE1 /* LockManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockManager.h; sourceTree = "<group>"; };
+		959BFCBF1A73808200AB0FE1 /* LockManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockManager.m; sourceTree = "<group>"; };
+		95E904EA1A76BCB000254EBE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		95E904EC1A76BCE900254EBE /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		95E904ED1A76BCE900254EBE /* BluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		959BFC901A7379D500AB0FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E904EB1A76BCB000254EBE /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959BFCA61A7379D600AB0FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		959BFC8A1A7379D500AB0FE1 = {
+			isa = PBXGroup;
+			children = (
+				95E904EA1A76BCB000254EBE /* CoreBluetooth.framework */,
+				959BFC951A7379D500AB0FE1 /* bluetooth-lock */,
+				959BFCAC1A7379D600AB0FE1 /* bluetooth-lockTests */,
+				959BFC941A7379D500AB0FE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		959BFC941A7379D500AB0FE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				959BFC931A7379D500AB0FE1 /* bluetooth-lock.app */,
+				959BFCA91A7379D600AB0FE1 /* bluetooth-lockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959BFC951A7379D500AB0FE1 /* bluetooth-lock */ = {
+			isa = PBXGroup;
+			children = (
+				959BFCBD1A73806200AB0FE1 /* Utility Classes */,
+				959BFCB91A737A1600AB0FE1 /* View Controllers */,
+				959BFC981A7379D500AB0FE1 /* AppDelegate.h */,
+				959BFC991A7379D500AB0FE1 /* AppDelegate.m */,
+				959BFCA01A7379D600AB0FE1 /* Images.xcassets */,
+				959BFCA21A7379D600AB0FE1 /* MainMenu.xib */,
+				959BFC9D1A7379D600AB0FE1 /* bluetooth_lock.xcdatamodeld */,
+				959BFC961A7379D500AB0FE1 /* Supporting Files */,
+			);
+			path = "bluetooth-lock";
+			sourceTree = "<group>";
+		};
+		959BFC961A7379D500AB0FE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				959BFC971A7379D500AB0FE1 /* Info.plist */,
+				959BFC9B1A7379D500AB0FE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		959BFCAC1A7379D600AB0FE1 /* bluetooth-lockTests */ = {
+			isa = PBXGroup;
+			children = (
+				959BFCAF1A7379D600AB0FE1 /* bluetooth_lockTests.m */,
+				959BFCAD1A7379D600AB0FE1 /* Supporting Files */,
+			);
+			path = "bluetooth-lockTests";
+			sourceTree = "<group>";
+		};
+		959BFCAD1A7379D600AB0FE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				959BFCAE1A7379D600AB0FE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		959BFCB91A737A1600AB0FE1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				959BFCBA1A737B4600AB0FE1 /* HomeView.h */,
+				959BFCBB1A737B4600AB0FE1 /* HomeView.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		959BFCBD1A73806200AB0FE1 /* Utility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				959BFCBE1A73808200AB0FE1 /* LockManager.h */,
+				959BFCBF1A73808200AB0FE1 /* LockManager.m */,
+				95E904EC1A76BCE900254EBE /* BluetoothManager.h */,
+				95E904ED1A76BCE900254EBE /* BluetoothManager.m */,
+			);
+			name = "Utility Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		959BFC921A7379D500AB0FE1 /* bluetooth-lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959BFCB31A7379D600AB0FE1 /* Build configuration list for PBXNativeTarget "bluetooth-lock" */;
+			buildPhases = (
+				959BFC8F1A7379D500AB0FE1 /* Sources */,
+				959BFC901A7379D500AB0FE1 /* Frameworks */,
+				959BFC911A7379D500AB0FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bluetooth-lock";
+			productName = "bluetooth-lock";
+			productReference = 959BFC931A7379D500AB0FE1 /* bluetooth-lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		959BFCA81A7379D600AB0FE1 /* bluetooth-lockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959BFCB61A7379D600AB0FE1 /* Build configuration list for PBXNativeTarget "bluetooth-lockTests" */;
+			buildPhases = (
+				959BFCA51A7379D600AB0FE1 /* Sources */,
+				959BFCA61A7379D600AB0FE1 /* Frameworks */,
+				959BFCA71A7379D600AB0FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				959BFCAB1A7379D600AB0FE1 /* PBXTargetDependency */,
+			);
+			name = "bluetooth-lockTests";
+			productName = "bluetooth-lockTests";
+			productReference = 959BFCA91A7379D600AB0FE1 /* bluetooth-lockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		959BFC8B1A7379D500AB0FE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = sumit;
+				TargetAttributes = {
+					959BFC921A7379D500AB0FE1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					959BFCA81A7379D600AB0FE1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 959BFC921A7379D500AB0FE1;
+					};
+				};
+			};
+			buildConfigurationList = 959BFC8E1A7379D500AB0FE1 /* Build configuration list for PBXProject "bluetooth-lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 959BFC8A1A7379D500AB0FE1;
+			productRefGroup = 959BFC941A7379D500AB0FE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				959BFC921A7379D500AB0FE1 /* bluetooth-lock */,
+				959BFCA81A7379D600AB0FE1 /* bluetooth-lockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		959BFC911A7379D500AB0FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959BFCA11A7379D600AB0FE1 /* Images.xcassets in Resources */,
+				959BFCA41A7379D600AB0FE1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959BFCA71A7379D600AB0FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		959BFC8F1A7379D500AB0FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959BFC9C1A7379D500AB0FE1 /* main.m in Sources */,
+				959BFCC01A73808200AB0FE1 /* LockManager.m in Sources */,
+				959BFCBC1A737B4600AB0FE1 /* HomeView.m in Sources */,
+				959BFC9F1A7379D600AB0FE1 /* bluetooth_lock.xcdatamodeld in Sources */,
+				95E904EE1A76BCE900254EBE /* BluetoothManager.m in Sources */,
+				959BFC9A1A7379D500AB0FE1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959BFCA51A7379D600AB0FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959BFCB01A7379D600AB0FE1 /* bluetooth_lockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		959BFCAB1A7379D600AB0FE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959BFC921A7379D500AB0FE1 /* bluetooth-lock */;
+			targetProxy = 959BFCAA1A7379D600AB0FE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		959BFCA21A7379D600AB0FE1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959BFCA31A7379D600AB0FE1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		959BFCB11A7379D600AB0FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		959BFCB21A7379D600AB0FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		959BFCB41A7379D600AB0FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "bluetooth-lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		959BFCB51A7379D600AB0FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "bluetooth-lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		959BFCB71A7379D600AB0FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bluetooth-lockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluetooth-lock.app/Contents/MacOS/bluetooth-lock";
+			};
+			name = Debug;
+		};
+		959BFCB81A7379D600AB0FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bluetooth-lockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluetooth-lock.app/Contents/MacOS/bluetooth-lock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		959BFC8E1A7379D500AB0FE1 /* Build configuration list for PBXProject "bluetooth-lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959BFCB11A7379D600AB0FE1 /* Debug */,
+				959BFCB21A7379D600AB0FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959BFCB31A7379D600AB0FE1 /* Build configuration list for PBXNativeTarget "bluetooth-lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959BFCB41A7379D600AB0FE1 /* Debug */,
+				959BFCB51A7379D600AB0FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959BFCB61A7379D600AB0FE1 /* Build configuration list for PBXNativeTarget "bluetooth-lockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959BFCB71A7379D600AB0FE1 /* Debug */,
+				959BFCB81A7379D600AB0FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		959BFC9D1A7379D600AB0FE1 /* bluetooth_lock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				959BFC9E1A7379D600AB0FE1 /* bluetooth_lock.xcdatamodel */,
+			);
+			currentVersion = 959BFC9E1A7379D600AB0FE1 /* bluetooth_lock.xcdatamodel */;
+			path = bluetooth_lock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 959BFC8B1A7379D500AB0FE1 /* Project object */;
+}
